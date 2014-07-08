@@ -11,6 +11,7 @@
 @implementation Gameplay {
     CCPhysicsNode * _physicsNode;
     CCNode * _catapultArm;
+    CCNode * _levelNode;
 }
 
 - (void) didLoadFromCCB {
@@ -25,9 +26,13 @@
     CCNode * penguin = [CCBReader load:@"Penguin"];
     penguin.position = ccpAdd(_catapultArm.position, ccp(16, 50));
     [_physicsNode addChild:penguin];
+    
     CGPoint launchDirection = ccp(1, 0);
     CGPoint force = ccpMult(launchDirection, 8000);
     [penguin.physicsBody applyForce:force];
+    
+    CCNode * level = [CCBReader load:@"Levels/Level1"];
+    [_levelNode addChild:level];
 }
 
 @end
