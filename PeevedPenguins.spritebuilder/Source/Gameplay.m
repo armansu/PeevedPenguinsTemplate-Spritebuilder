@@ -17,8 +17,8 @@
 - (void) didLoadFromCCB {
     self.userInteractionEnabled = YES;
     
-//    CCNode * level = [CCBReader load:@"Levels/Level1"];
-//    [_levelNode addChild:level];
+    CCNode * level = [CCBReader load:@"Levels/Level1"];
+    [_levelNode addChild:level];
 }
 
 - (void) touchBegan:(UITouch *)touch withEvent:(UIEvent *)event {
