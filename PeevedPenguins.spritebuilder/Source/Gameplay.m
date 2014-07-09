@@ -24,6 +24,8 @@
     
     CCNode * level = [CCBReader load:@"Levels/Level1"];
     [_levelNode addChild:level];
+    
+    _physicsNode.debugDraw = YES;
 }
 
 - (void) touchBegan:(UITouch *)touch withEvent:(UIEvent *)event {
