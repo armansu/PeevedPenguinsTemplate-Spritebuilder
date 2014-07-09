@@ -13,6 +13,7 @@
     CCNode * _catapultArm;
     CCNode * _levelNode;
     CCNode * _contentNode;
+    CCNode * _pullbackNode;
 }
 
 - (void) retry {
@@ -26,6 +27,7 @@
     [_levelNode addChild:level];
     
     _physicsNode.debugDraw = TRUE;
+    _pullbackNode.physicsBody.collisionMask = @[];
 }
 
 - (void) touchBegan:(UITouch *)touch withEvent:(UIEvent *)event {
