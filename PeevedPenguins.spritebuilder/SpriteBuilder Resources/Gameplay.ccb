@@ -10,7 +10,7 @@
 		<false/>
 	</dict>
 	<key>UUID</key>
-	<integer>15</integer>
+	<integer>16</integer>
 	<key>centeredOrigin</key>
 	<false/>
 	<key>currentResolution</key>
@@ -142,7 +142,7 @@
 		</dict>
 		<dict>
 			<key>UUID</key>
-			<integer>14</integer>
+			<integer>15</integer>
 			<key>baseClass</key>
 			<string>CCPhysicsSpringJoint</string>
 			<key>children</key>
@@ -164,8 +164,8 @@
 					<string>Position</string>
 					<key>value</key>
 					<array>
-						<real>233.83204650878906</real>
-						<real>284.49612426757812</real>
+						<real>233</real>
+						<real>309</real>
 						<integer>0</integer>
 						<integer>0</integer>
 						<integer>0</integer>
@@ -202,8 +202,8 @@
 					<string>Point</string>
 					<key>value</key>
 					<array>
-						<real>0.8320465087890625</real>
-						<real>1.496124267578125</real>
+						<real>0.0</real>
+						<real>14</real>
 					</array>
 				</dict>
 				<dict>
@@ -246,8 +246,8 @@
 					<string>EnabledFloat</string>
 					<key>value</key>
 					<array>
-						<real>50</real>
-						<true/>
+						<real>57.659168243408203</real>
+						<false/>
 					</array>
 				</dict>
 				<dict>
@@ -256,7 +256,7 @@
 					<key>type</key>
 					<string>Float</string>
 					<key>value</key>
-					<real>60</real>
+					<real>1</real>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -264,7 +264,7 @@
 					<key>type</key>
 					<string>Float</string>
 					<key>value</key>
-					<real>500</real>
+					<real>4</real>
 				</dict>
 			</array>
 		</dict>
@@ -1179,7 +1179,7 @@
 								<key>value</key>
 								<array>
 									<real>233</real>
-									<real>283</real>
+									<real>295</real>
 									<integer>0</integer>
 									<integer>0</integer>
 									<integer>0</integer>
