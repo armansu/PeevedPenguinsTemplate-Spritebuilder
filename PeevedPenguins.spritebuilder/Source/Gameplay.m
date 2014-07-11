@@ -50,7 +50,7 @@
         _currentPenguin.position = [_physicsNode convertToNodeSpace:penguinPosition];
         [_physicsNode addChild:_currentPenguin];
         _currentPenguin.physicsBody.allowsRotation = FALSE;
-        _penguinCatapultJoint = [CCPhysicsJoint connectedPivotJointWithBodyA:_currentPenguin.physicsBody bodyB:_catapultArm.physicsBody anchorA:_currentPenguin.anchorPointInPoints)];
+        _penguinCatapultJoint = [CCPhysicsJoint connectedPivotJointWithBodyA:_currentPenguin.physicsBody bodyB:_catapultArm.physicsBody anchorA:_currentPenguin.anchorPointInPoints];
     }
 }
 
